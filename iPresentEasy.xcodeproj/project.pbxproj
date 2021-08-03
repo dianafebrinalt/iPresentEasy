@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174CB6C026B655A400A62EE0 /* CueCardInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CB6BF26B655A400A62EE0 /* CueCardInformationViewController.swift */; };
+		1781BEC726AA63DD005D1DD0 /* Presentation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1781BEC526AA63DD005D1DD0 /* Presentation.xcdatamodeld */; };
+		1781BEC926AA7A96005D1DD0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781BEC826AA7A96005D1DD0 /* CardView.swift */; };
+		1781BECB26AA7E39005D1DD0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */; };
+		17DD856226B7917800830B0B /* RehearsalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD856126B7917800830B0B /* RehearsalViewController.swift */; };
 		8BC451B726A8643A00DF61B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451B626A8643A00DF61B5 /* AppDelegate.swift */; };
 		8BC451B926A8643A00DF61B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */; };
 		8BC451BB26A8643A00DF61B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451BA26A8643A00DF61B5 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174CB6BF26B655A400A62EE0 /* CueCardInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueCardInformationViewController.swift; sourceTree = "<group>"; };
+		1781BEC626AA63DD005D1DD0 /* Presentation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Presentation.xcdatamodel; sourceTree = "<group>"; };
+		1781BEC826AA7A96005D1DD0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		17DD856126B7917800830B0B /* RehearsalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehearsalViewController.swift; sourceTree = "<group>"; };
 		8BC451B326A8643A00DF61B5 /* iPresentEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPresentEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC451B626A8643A00DF61B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +52,7 @@
 		8BC451AA26A8643A00DF61B5 = {
 			isa = PBXGroup;
 			children = (
+				1781BEC526AA63DD005D1DD0 /* Presentation.xcdatamodeld */,
 				8BC451B526A8643A00DF61B5 /* iPresentEasy */,
 				8BC451B426A8643A00DF61B5 /* Products */,
 			);
@@ -58,14 +69,18 @@
 		8BC451B526A8643A00DF61B5 /* iPresentEasy */ = {
 			isa = PBXGroup;
 			children = (
+				17DD856126B7917800830B0B /* RehearsalViewController.swift */,
 				8BC451B626A8643A00DF61B5 /* AppDelegate.swift */,
 				8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */,
 				8BC451BA26A8643A00DF61B5 /* ViewController.swift */,
 				8BC451BC26A8643A00DF61B5 /* Main.storyboard */,
+				174CB6BF26B655A400A62EE0 /* CueCardInformationViewController.swift */,
 				8BC451C226A8643B00DF61B5 /* Assets.xcassets */,
 				8BC451C426A8643B00DF61B5 /* LaunchScreen.storyboard */,
 				8BC451C726A8643B00DF61B5 /* Info.plist */,
 				8BC451BF26A8643A00DF61B5 /* iPresentEasy.xcdatamodeld */,
+				1781BEC826AA7A96005D1DD0 /* CardView.swift */,
+				1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */,
 			);
 			path = iPresentEasy;
 			sourceTree = "<group>";
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1781BEC726AA63DD005D1DD0 /* Presentation.xcdatamodeld in Sources */,
+				1781BECB26AA7E39005D1DD0 /* DashboardViewController.swift in Sources */,
+				17DD856226B7917800830B0B /* RehearsalViewController.swift in Sources */,
 				8BC451BB26A8643A00DF61B5 /* ViewController.swift in Sources */,
 				8BC451C126A8643A00DF61B5 /* iPresentEasy.xcdatamodeld in Sources */,
 				8BC451B726A8643A00DF61B5 /* AppDelegate.swift in Sources */,
+				174CB6C026B655A400A62EE0 /* CueCardInformationViewController.swift in Sources */,
+				1781BEC926AA7A96005D1DD0 /* CardView.swift in Sources */,
 				8BC451B926A8643A00DF61B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +367,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		1781BEC526AA63DD005D1DD0 /* Presentation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1781BEC626AA63DD005D1DD0 /* Presentation.xcdatamodel */,
+			);
+			currentVersion = 1781BEC626AA63DD005D1DD0 /* Presentation.xcdatamodel */;
+			path = Presentation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		8BC451BF26A8643A00DF61B5 /* iPresentEasy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
