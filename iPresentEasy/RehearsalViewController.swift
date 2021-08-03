@@ -148,25 +148,6 @@ class RehearsalViewController: UIViewController, AVAudioRecorderDelegate, AVAudi
         }
     }
     
-    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-        print("Finish recording")
-        if flag {
-            soundsRecordPlayStatusLabel.text = "Recording completed"
-            
-            recordingButton.isEnabled = true
-            playRecordingButton.isEnabled = true
-            stopRecordingButton.isEnabled = false
-        }
-    }
-    
-    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-        soundsRecordPlayStatusLabel.text = "Playing completed"
-        
-        playRecordingButton.isSelected = false
-        stopRecordingButton.isEnabled = false
-        recordingButton.isEnabled = true
-    }
-    
     @IBAction func soundSaveButtonAction(_ sender: Any) {
         let soundsContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             
@@ -196,7 +177,25 @@ class RehearsalViewController: UIViewController, AVAudioRecorderDelegate, AVAudi
             audioRecorder?.delegate = self
             audioRecorder?.isMeteringEnabled = true
             audioRecorder?.prepareToRecord()
-
+    }
+    
+    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
+        print("Finish recording")
+        if flag {
+            soundsRecordPlayStatusLabel.text = "Recording completed"
+            
+            recordingButton.isEnabled = true
+            playRecordingButton.isEnabled = true
+            stopRecordingButton.isEnabled = false
+        }
+    }
+    
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        soundsRecordPlayStatusLabel.text = "Playing completed"
+        
+        playRecordingButton.isSelected = false
+        stopRecordingButton.isEnabled = false
+        recordingButton.isEnabled = true
     }
     
     
