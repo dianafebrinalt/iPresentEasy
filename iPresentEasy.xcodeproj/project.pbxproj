@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170FD34426BA4B0700B00722 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34326BA4B0700B00722 /* SectionTableViewController.swift */; };
+		170FD34726BA4B3700B00722 /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34626BA4B3700B00722 /* SectionTableViewCell.swift */; };
+		170FD34A26BA4DD200B00722 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34926BA4DD200B00722 /* SectionViewController.swift */; };
+		170FD34C26BA512C00B00722 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34B26BA512C00B00722 /* ContentViewController.swift */; };
+		170FD34E26BA528600B00722 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34D26BA528600B00722 /* ContentTableViewCell.swift */; };
+		170FD35026BA52B800B00722 /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD34F26BA52B800B00722 /* ContentTableViewController.swift */; };
+		174CB6C026B655A400A62EE0 /* CueCardInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CB6BF26B655A400A62EE0 /* CueCardInformationViewController.swift */; };
+		1781BECB26AA7E39005D1DD0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */; };
+		1783374326BA854400EF2BA2 /* ModifyContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783374226BA854400EF2BA2 /* ModifyContentViewController.swift */; };
+		1783374526BA868D00EF2BA2 /* contentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783374426BA868D00EF2BA2 /* contentCollectionViewCell.swift */; };
+		17DD856226B7917800830B0B /* RehearsalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD856126B7917800830B0B /* RehearsalViewController.swift */; };
 		8BC451B726A8643A00DF61B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451B626A8643A00DF61B5 /* AppDelegate.swift */; };
 		8BC451B926A8643A00DF61B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */; };
 		8BC451BB26A8643A00DF61B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC451BA26A8643A00DF61B5 /* ViewController.swift */; };
@@ -17,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170FD34326BA4B0700B00722 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		170FD34626BA4B3700B00722 /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
+		170FD34926BA4DD200B00722 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		170FD34B26BA512C00B00722 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		170FD34D26BA528600B00722 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		170FD34F26BA52B800B00722 /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
+		174CB6BF26B655A400A62EE0 /* CueCardInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueCardInformationViewController.swift; sourceTree = "<group>"; };
+		1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		1783374226BA854400EF2BA2 /* ModifyContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyContentViewController.swift; sourceTree = "<group>"; };
+		1783374426BA868D00EF2BA2 /* contentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCollectionViewCell.swift; sourceTree = "<group>"; };
+		17DD856126B7917800830B0B /* RehearsalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehearsalViewController.swift; sourceTree = "<group>"; };
 		8BC451B326A8643A00DF61B5 /* iPresentEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPresentEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC451B626A8643A00DF61B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170FD34526BA4B1500B00722 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1781BECA26AA7E39005D1DD0 /* DashboardViewController.swift */,
+				8BC451BA26A8643A00DF61B5 /* ViewController.swift */,
+				17DD856126B7917800830B0B /* RehearsalViewController.swift */,
+				170FD34326BA4B0700B00722 /* SectionTableViewController.swift */,
+				170FD34926BA4DD200B00722 /* SectionViewController.swift */,
+				170FD34B26BA512C00B00722 /* ContentViewController.swift */,
+				170FD34F26BA52B800B00722 /* ContentTableViewController.swift */,
+				1783374226BA854400EF2BA2 /* ModifyContentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		170FD34826BA4B4500B00722 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				170FD34626BA4B3700B00722 /* SectionTableViewCell.swift */,
+				170FD34D26BA528600B00722 /* ContentTableViewCell.swift */,
+				1783374426BA868D00EF2BA2 /* contentCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		8BC451AA26A8643A00DF61B5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +105,10 @@
 		8BC451B526A8643A00DF61B5 /* iPresentEasy */ = {
 			isa = PBXGroup;
 			children = (
+				170FD34826BA4B4500B00722 /* Cell */,
+				170FD34526BA4B1500B00722 /* Controller */,
 				8BC451B626A8643A00DF61B5 /* AppDelegate.swift */,
 				8BC451B826A8643A00DF61B5 /* SceneDelegate.swift */,
-				8BC451BA26A8643A00DF61B5 /* ViewController.swift */,
 				8BC451BC26A8643A00DF61B5 /* Main.storyboard */,
 				8BC451C226A8643B00DF61B5 /* Assets.xcassets */,
 				8BC451C426A8643B00DF61B5 /* LaunchScreen.storyboard */,
@@ -140,10 +188,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1781BECB26AA7E39005D1DD0 /* DashboardViewController.swift in Sources */,
+				17DD856226B7917800830B0B /* RehearsalViewController.swift in Sources */,
+				1783374526BA868D00EF2BA2 /* contentCollectionViewCell.swift in Sources */,
 				8BC451BB26A8643A00DF61B5 /* ViewController.swift in Sources */,
+				170FD34726BA4B3700B00722 /* SectionTableViewCell.swift in Sources */,
 				8BC451C126A8643A00DF61B5 /* iPresentEasy.xcdatamodeld in Sources */,
 				8BC451B726A8643A00DF61B5 /* AppDelegate.swift in Sources */,
+				170FD34A26BA4DD200B00722 /* SectionViewController.swift in Sources */,
+				174CB6C026B655A400A62EE0 /* CueCardInformationViewController.swift in Sources */,
+				170FD35026BA52B800B00722 /* ContentTableViewController.swift in Sources */,
+				170FD34C26BA512C00B00722 /* ContentViewController.swift in Sources */,
+				1783374326BA854400EF2BA2 /* ModifyContentViewController.swift in Sources */,
+				170FD34426BA4B0700B00722 /* SectionTableViewController.swift in Sources */,
 				8BC451B926A8643A00DF61B5 /* SceneDelegate.swift in Sources */,
+				170FD34E26BA528600B00722 /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

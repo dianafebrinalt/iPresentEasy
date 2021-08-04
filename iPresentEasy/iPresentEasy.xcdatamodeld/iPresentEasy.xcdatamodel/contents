@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< Updated upstream
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
     <elements/>
+=======
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Content" representedClassName="Content" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="section" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Section" inverseName="content" inverseEntity="Section"/>
+    </entity>
+    <entity name="CueCard" representedClassName="CueCard" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="syncCalendar" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="section" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Section" inverseName="cueCard" inverseEntity="Section"/>
+    </entity>
+    <entity name="Section" representedClassName="Section" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="section" optional="YES" attributeType="String"/>
+        <relationship name="content" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Content" inverseName="section" inverseEntity="Content"/>
+        <relationship name="cueCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CueCard" inverseName="section" inverseEntity="CueCard"/>
+    </entity>
+    <elements>
+        <element name="CueCard" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Section" positionX="-63" positionY="18" width="128" height="89"/>
+        <element name="Content" positionX="-54" positionY="27" width="128" height="89"/>
+    </elements>
+>>>>>>> Stashed changes
 </model>
